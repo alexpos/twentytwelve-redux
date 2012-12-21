@@ -18,3 +18,5 @@ if (is_dir(trailingslashit( CHILD_THEME_DIR ) . 'admin/')) {
 function redux_install__admin_notice(){
     echo '<div class="error"> <p>Add the Redux admin folder as explained in the <a href="#">readme file!</a></p> </div>';
 }
+
+wp_enqueue_script('jquery');
